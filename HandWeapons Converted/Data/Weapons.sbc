@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Weapons>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>RailRifleGun</SubtypeId>
+            </Id>
+            <ProjectileAmmoData RateOfFire="100" ShootSoundName="WepRifleShot" ShotsInBurst="1" />
+            <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+            <ReloadSoundName>WepRifleReloadShort</ReloadSoundName>
+            <DeviateShotAngle>0.1</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.1</DeviateShotAngleAiming>
+            <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+            <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+            <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+            <DamageMultiplier>0.48</DamageMultiplier>
+            <RangeMultiplier>1.0</RangeMultiplier>
+            <UseRandomizedRange>false</UseRandomizedRange>
+            <Effects>
+                <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash" Loop="true" InstantStop="true"/>
+                <Effect Action="Shoot" Dummy="Shell_Casings" Particle="Shell_Casings" InstantStop="false"/>
+            </Effects>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="RailshotMag" />
+                </AmmoMagazines>
+            <ReloadTime>2400</ReloadTime>
+            <RecoilJetpackVertical>20</RecoilJetpackVertical>
+            <RecoilJetpackHorizontal>10</RecoilJetpackHorizontal>
+            <RecoilGroundVertical>6</RecoilGroundVertical>
+            <RecoilGroundHorizontal>2</RecoilGroundHorizontal>
+            <RecoilMultiplierDataNames>
+                <string>Standing</string>
+                <string>Walking</string>
+                <string>Running</string>
+                <string>Crouching</string>
+                <string>Aiming</string>
+            </RecoilMultiplierDataNames>
+            <RecoilMultiplierDataVerticals>
+                <float>.75</float>
+                <float>.9</float>
+                <float>1.1</float>
+                <float>.5</float>
+                <float>.25</float>
+            </RecoilMultiplierDataVerticals>
+            <RecoilMultiplierDataHorizontals>
+                <float>.75</float>
+                <float>.9</float>
+                <float>1.1</float>
+                <float>.5</float>
+                <float>.25</float>
+            </RecoilMultiplierDataHorizontals>
+            <ShootDirectionUpdateTime>180</ShootDirectionUpdateTime>
+            <EquipDuration>0.5</EquipDuration>
+            <ShakeOnActionPrimary>true</ShakeOnActionPrimary>
+            <ShakeOnActionSecondary>false</ShakeOnActionSecondary>
+            <ShakeOnActionTertiary>false</ShakeOnActionTertiary>
+        </Weapon>
+
+        <Weapon>
+            <Id>
+                <TypeId>WeaponDefinition</TypeId>
+                <SubtypeId>HandGun</SubtypeId>
+            </Id>
+            <ProjectileAmmoData RateOfFire="450" ShootSoundName="WepPlayPistolShot" ShotsInBurst="1"/>
+            <NoAmmoSoundName>WepPistolNoAmmo</NoAmmoSoundName>
+            <ReloadSoundName>WepPistolReloadShort</ReloadSoundName>
+            <DeviateShotAngle>0.9</DeviateShotAngle>
+            <DeviateShotAngleAiming>0.3</DeviateShotAngleAiming>
+            <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+            <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+            <UseDefaultMuzzleFlash>false</UseDefaultMuzzleFlash>
+            <DamageMultiplier>0.21</DamageMultiplier>
+            <RangeMultiplier>1.0</RangeMultiplier>
+            <UseRandomizedRange>false</UseRandomizedRange>
+            <ReloadTime>1400</ReloadTime>
+            <Effects>
+                <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash_Pistol" Loop="true" InstantStop="true"/>
+                <Effect Action="Shoot" Dummy="Shell_Casings" Particle="Shell_Casings" InstantStop="false"/>
+            </Effects>
+            <AmmoMagazines>
+                <AmmoMagazine Subtype="HandGunMag" />
+            </AmmoMagazines>
+            <RecoilJetpackVertical>10</RecoilJetpackVertical>
+            <RecoilJetpackHorizontal>5</RecoilJetpackHorizontal>
+            <RecoilGroundVertical>2</RecoilGroundVertical>
+            <RecoilGroundHorizontal>1</RecoilGroundHorizontal>
+            <RecoilMultiplierDataNames>
+                <string>Standing</string>
+                <string>Walking</string>
+                <string>Running</string>
+                <string>Crouching</string>
+                <string>Aiming</string>
+            </RecoilMultiplierDataNames>
+            <RecoilMultiplierDataVerticals>
+                <float>.9</float>
+                <float>1</float>
+                <float>1.1</float>
+                <float>.75</float>
+                <float>.5</float>
+            </RecoilMultiplierDataVerticals>
+            <RecoilMultiplierDataHorizontals>
+                <float>.9</float>
+                <float>1</float>
+                <float>1.1</float>
+                <float>.75</float>
+                <float>.5</float>
+            </RecoilMultiplierDataHorizontals>
+            <ShootDirectionUpdateTime>120</ShootDirectionUpdateTime>
+            <EquipDuration>0.5</EquipDuration>
+            <ShakeOnActionPrimary>true</ShakeOnActionPrimary>
+            <ShakeOnActionSecondary>false</ShakeOnActionSecondary>
+            <ShakeOnActionTertiary>false</ShakeOnActionTertiary>
+        </Weapon>
+     
+
+
+  </Weapons>
+</Definitions>
