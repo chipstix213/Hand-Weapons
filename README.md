@@ -1,2 +1,2 @@
 # Hand-Weapons
- Hand Weaponry fro space engineers
+ Hand Weaponry for space engineers using core parts framework
