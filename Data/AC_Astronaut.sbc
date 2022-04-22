@@ -4,16 +4,16 @@
     <Id Type="MyObjectBuilder_AnimationControllerDefinition" Subtype="Default_Astronaut" />
     <Layers>
       <Layer>
-        <Name>WeaponPinHipChipstix</Name>
+        <Name>WeaponPinChipstix</Name>
         <Mode>Replace</Mode>
-        <StateMachine>SMWeaponPinHipChipstix</StateMachine>
+        <StateMachine>SMWeaponPinChipstix</StateMachine>
         <InitialSMNode>Nothing</InitialSMNode>
         <BoneMask>BackJetpackDummy FrontJetpackDummy SE_RigHead SE_RigL_Little_1 SE_RigL_Little_2 SE_RigL_Little_3 SE_RigL_Middle_1 SE_RigL_Middle_2 SE_RigL_Middle_3 SE_RigL_Ring_1 SE_RigL_Ring_2 SE_RigL_Ring_3 SE_RigL_Thumb_1 SE_RigL_Thumb_2 SE_RigL_Thumb_3 SE_RigL_Weapon_pin SE_RigLCollarbone SE_RigLForearm1 SE_RigLForearm2 SE_RigLForearm3 SE_RigLPalm SE_RigLUpperarm SE_RigNeck SE_RigR_Index_1 SE_RigR_Index_2 SE_RigR_Index_3 SE_RigR_Little_1 SE_RigR_Little_2 SE_RigR_Little_3 SE_RigR_Middle_1 SE_RigR_Middle_2 SE_RigR_Middle_3 SE_RigR_Ring_1 SE_RigR_Ring_2 SE_RigR_Ring_3 SE_RigR_Thumb_1 SE_RigR_Thumb_2 SE_RigR_Thumb_3 SE_RigR_Weapon_pin SE_RigRCollarbone SE_RigRForearm1 SE_RigRForearm2 SE_RigRForearm3 SE_RigRPalm SE_RigRUpperarm SE_RigSpine1 SE_RigSpine2 SE_RigSpine3 SE_RigSpine4</BoneMask>
       </Layer>
       <Layer>
-        <Name>HipHipChipstix</Name>
+        <Name>HipChipstix</Name>
         <Mode>Add</Mode>
-        <StateMachine>SMHipHipChipstix</StateMachine>
+        <StateMachine>SMHipChipstix</StateMachine>
         <InitialSMNode>DontRotateHip</InitialSMNode>
         <BoneMask>BackJetpackDummy FrontJetpackDummy SE_RigPelvis SE_RigSpine1 SE_RigSpine2 SE_RigSpine3 SE_RigSpine4</BoneMask>
       </Layer>
