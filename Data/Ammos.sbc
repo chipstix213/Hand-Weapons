@@ -14,7 +14,8 @@
         <PhysicalMaterial>RifleBullet</PhysicalMaterial>
       </BasicProperties>
       <ProjectileProperties>
-        <ProjectileTrailScale>0.05</ProjectileTrailScale>
+        <ProjectileTrailScale>0.2</ProjectileTrailScale>
+        <ProjectileTrailColor x=".755" y=".945" z="1.275" />
         <ProjectileHitImpulse>3</ProjectileHitImpulse>
         <ProjectileMassDamage>1500</ProjectileMassDamage>
         <ProjectileHealthDamage>1000</ProjectileHealthDamage>
@@ -37,7 +38,7 @@
       </BasicProperties>
       <ProjectileProperties>
         <ProjectileTrailScale>0.05</ProjectileTrailScale>
-        <ProjectileHitImpulse>1</ProjectileHitImpulse>
+        <ProjectileHitImpulse>10</ProjectileHitImpulse>
         <ProjectileMassDamage>150</ProjectileMassDamage>
         <ProjectileHealthDamage>100</ProjectileHealthDamage>
         <HeadShot>true</HeadShot>
