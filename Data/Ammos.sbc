@@ -7,7 +7,7 @@
         <SubtypeId>Railshot</SubtypeId>
       </Id>
       <BasicProperties>
-        <DesiredSpeed>1000</DesiredSpeed>
+        <DesiredSpeed>200</DesiredSpeed>
         <SpeedVariance>0</SpeedVariance>
         <MaxTrajectory>800</MaxTrajectory>
         <BackkickForce>5.5</BackkickForce>
@@ -15,6 +15,7 @@
       </BasicProperties>
       <ProjectileProperties>
         <ProjectileTrailScale>0.2</ProjectileTrailScale>
+        <ProjectileTrailProbability>1</ProjectileTrailProbability>
         <ProjectileTrailColor x=".755" y=".945" z="1.275" />
         <ProjectileHitImpulse>3</ProjectileHitImpulse>
         <ProjectileMassDamage>1500</ProjectileMassDamage>
