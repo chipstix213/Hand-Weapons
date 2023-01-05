@@ -19,7 +19,7 @@
             <RangeMultiplier>1.0</RangeMultiplier>
             <UseRandomizedRange>false</UseRandomizedRange>
             <Effects>
-                <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Flash_Electrical" Loop="true" InstantStop="false"/>
+                <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Discharge" Loop="true" InstantStop="false"/>
                 <Effect Action="Shoot" Dummy="Shell_Casings" Particle="Shell_Casings" InstantStop="false"/>
             </Effects>
             <AmmoMagazines>
